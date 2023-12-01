@@ -1,0 +1,55 @@
+<<<<<<< HEAD
+2D, r = R1/10
+
+No pores
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 --- 165.3394260406494 seconds ---
+MFPT(s)  0.13831188307137854 Particles hitting the target =  9989
+
+4 pores
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 --- 690.536383152008 seconds ---
+MFPT(s)  0.3097967049718574 Particles hitting the target =  8528
+
+-------------------------------------------------------------------------------------------------
+3k pores
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.1 --- 914.8733584880829 seconds ---
+MFPT(s)  0.20359932440440914 Particles hitting the target =  8437
+
+Ito/Str/Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  3000 r =  0.1 --- 872.6018936634064 seconds ---
+MFPT(s)  0.20359932440440914 Particles hitting the target =  8437
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  3000 r =  0.001 --- 1176.425072669983 seconds ---
+MFPT(s)  0.23350013711151738 Particles hitting the target =  8752
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  3000 r =  0.001 --- 1017.3609659671783 seconds ---
+MFPT(s)  0.23336710134980554 Particles hitting the target =  8742
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  3000 r =  0.001 --- 1226.4087753295898 seconds ---
+MFPT(s)  0.1964515060961033 Particles hitting the target =  8366
+
+300 pores
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  300 r =  0.01 --- 831.7579431533813 seconds ---
+MFPT(s)  0.36098822507815215 Particles hitting the target =  8637
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  300 r =  0.01 --- 721.5760922431946 seconds ---
+MFPT(s)  0.3621264777131783 Particles hitting the target =  8256
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  300 r =  0.01 --- 1209.4978322982788 seconds ---
+MFPT(s)  0.28452266305981366 Particles hitting the target =  6654
+
+10 pores
+Ito/Str/Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N = 10 r =  0.1 --- 751.4694373607635 seconds ---
+MFPT(s)  0.27461678135093387 Particles hitting the target =  7121
+
+
+No pores
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 --- 1135.8919348716736 seconds ---
+MFPT(s)  0.4143289855072464 Particles hitting the target =  6555
+
+With too many pores(3000)-too small pores(0.001) the conventions don't matter
+For 300-0.01 there is difference
+=======
+3k pores
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 --- 914.8733584880829 seconds ---
+MFPT(s)  0.20359932440440914 Particles hitting the target =  8437
+>>>>>>> e43d2fe0879421d252932c80e1e1f36f455c1b71

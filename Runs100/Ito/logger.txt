@@ -1,0 +1,31 @@
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.01 --- 737.9890034198761 seconds ---
+MFPT(s)  0.20747344903509907 Particles hitting the target =  7721
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.03 --- 1023.4795341491699 seconds ---
+MFPT(s)  0.33182768436578175 Particles hitting the target =  6780
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.07 --- 1157.0914387702942 seconds ---
+MFPT(s)  0.4043562414266118 Particles hitting the target =  6561
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.01 --- 694.4598352909088 seconds ---
+MFPT(s)  0.2908882798165138 Particles hitting the target =  8720
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.03 --- 693.1008839607239 seconds ---
+MFPT(s)  0.37149726253298154 Particles hitting the target =  9096
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.07 --- 642.5240433216095 seconds ---
+MFPT(s)  0.35813082923701645 Particles hitting the target =  9358
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.01 --- 548.5548071861267 seconds ---
+MFPT(s)  0.11674248460702645 Particles hitting the target =  8283
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.03 --- 976.4213325977325 seconds ---
+MFPT(s)  0.3391243340234645 Particles hitting the target =  7245
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.07 --- 1140.5063569545746 seconds ---
+MFPT(s)  0.4535837696335079 Particles hitting the target =  6494
+
+
+N = 100, r = 0.1 is not doable as not possible to find so many non intersecting pores

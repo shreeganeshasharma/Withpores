@@ -1,0 +1,66 @@
+<<<<<<< HEAD
+Red Blood cells
+Size known - No nucleus when mature
+
+Average human cell diameter is 5-10 micrometer
+Average size of human cell nucleus - 2-5-10-20 micrometer
+
+https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=0&id=107498
+nucleoli - 0.5 to 5micrometer in diameter
+
+https://www.ncbi.nlm.nih.gov/books/NBK9927/
+https://en.wikipedia.org/wiki/Nuclear_pore
+
+Nuclear Pore Complex
+Entire NPC in vertebrate - Diameter of 120 nm
+Diameter of open channel for small partiles - 9nm, 5.2nm(Wikipedia)
+The most prominent feature of an individual NPC is a large central channel, ~7 nm in width and 50 nm in length. (https://bionumbers.hms.harvard.edu/bionumber.aspx?id=110695&ver=0&trm=nuclear+pore&org=)
+Diameter of regulated channel for RNA and stuff - 25nm
+Central channel/transporter - 40 nm for largest particle diffusion
+55-70nm (https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/nuclear-pore)
+
+https://www.mdpi.com/2073-4409/11/9/1456
+
+
+Pore density
+7 pores per micrometers squared - kidney cells
+https://bionumbers.hms.harvard.edu/bionumber.aspx?id=110698&ver=4&trm=pore+density&org=
+
+https://micro.magnet.fsu.edu/cells/nucleus/nuclearpores.html
+Pore density varies greatly and tends to be greatest among cells that are highly activate and differentiated, such as liver cells. A typical mammalian cell features approximately 3,000 to 4,000 pores along its nuclear envelope. The oocytes of certain amphibians, however, have such large nuclei and such a density of pores that the nuclear envelope of one of the cells may contain more than ten million pores.
+
+2000 NPCs in eukaryotic cells
+
+<<<<<<< HEAD
+Extension for SoP
+Extension for FPT
+Verified 3D 1:1 and large number of pores - Difference only at the boundary
+
+=======
+>>>>>>> e43d2fe0879421d252932c80e1e1f36f455c1b71
+? Scaling time when the distance is scaled
+dt = 0.0001 for R1 = 1
+dt = ? for R1 = 120, say?
+
+<<<<<<< HEAD
+=======
+Extension for SoP
+Extension for FPT
+Verified 3D 1:1 and large numbr of pores
+
+>>>>>>> e43d2fe0879421d252932c80e1e1f36f455c1b71
+
+http://book.bionumbers.org/how-big-are-nuclei/
+https://en.wikipedia.org/wiki/Cell_nucleus
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4600468/
+=======
+https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/nuclear-pore
+
+https://www.ncbi.nlm.nih.gov/books/NBK9927/
+
+https://en.wikipedia.org/wiki/Nuclear_pore
+
+https://micro.magnet.fsu.edu/cells/nucleus/nuclearpores.html
+
+
+>>>>>>> a86a1f2efdeb4ee535a0c3c03d84c8fd63b2f5c7
