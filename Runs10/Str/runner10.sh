@@ -6,9 +6,7 @@
 #Author: Shree Ganesha Sharma M S
 #Date: November 21st 2023
 
-#declare -a filenames=("3dWithPores_Str_10_01_11.py" "3dWithPores_Str_10_03_11.py" "3dWithPores_Str_10_07_11.py" "3dWithPores_Str_10_01_110.py" "3dWithPores_Str_10_03_110.py" "3dWithPores_Str_10_07_110.py" "3dWithPores_Str_10_01_101.py" "3dWithPores_Str_10_03_101.py" "3dWithPores_Str_10_07_101.py")
-
-declare -a filenames=("3dWithPores_Str_10_005_11.py" "3dWithPores_Str_10_005_110.py" "3dWithPores_Str_10_005_101.py" "3dWithPores_Str_10_01_110.py")
+declare -a filenames=("3dWithPores_Str_10_01_11.py" "3dWithPores_Str_10_03_11.py" "3dWithPores_Str_10_07_11.py" "3dWithPores_Str_10_01_110.py" "3dWithPores_Str_10_03_110.py" "3dWithPores_Str_10_07_110.py" "3dWithPores_Str_10_01_101.py" "3dWithPores_Str_10_03_101.py" "3dWithPores_Str_10_07_101.py" "3dWithPores_Str_10_005_11.py" "3dWithPores_Str_10_005_110.py" "3dWithPores_Str_10_005_101.py" "3dWithPores_Str_10_01_110.py")
 
 for value in "${!filenames[@]}"
 do

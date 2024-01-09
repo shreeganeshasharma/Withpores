@@ -24,3 +24,30 @@ MFPT(s)  0.46881603718768156 Particles hitting the target =  6884
 
 Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  500 r =  0.005 --- 588.7580003738403 seconds ---
 MFPT(s)  0.1441795421511628 Particles hitting the target =  8256
+____________________________________________________________________________________________________________________________
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  500 r =  0.01 --- 292.0806369781494 seconds ---
+MFPT(s)  0.14802055124711802 Particles hitting the target =  9542
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  500 r =  0.03 --- 360.6838526725769 seconds ---
+MFPT(s)  0.24561804703476484 Particles hitting the target =  9780
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  500 r =  0.005 --- 198.30957341194153 seconds ---
+MFPT(s)  0.0681621831133459 Particles hitting the target =  9546
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  500 r =  0.01 --- 159.0054919719696 seconds ---
+MFPT(s)  0.07433025167444693 Particles hitting the target =  9854
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  500 r =  0.03 --- 120.96021270751953 seconds ---
+MFPT(s)  0.062581652024639 Particles hitting the target =  9903
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  500 r =  0.005 --- 160.5629599094391 seconds ---
+MFPT(s)  0.06587193804768698 Particles hitting the target =  9814
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  500 r =  0.01 --- 157.12379240989685 seconds ---
+MFPT(s)  0.08690748876174909 Particles hitting the target =  9788
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  500 r =  0.03 --- 266.3992965221405 seconds ---
+MFPT(s)  0.20392954936708863 Particles hitting the target =  9875
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  500 r =  0.005 --- 105.13138699531555 seconds ---
+MFPT(s)  0.029494504818535987 Particles hitting the target =  9754

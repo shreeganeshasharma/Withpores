@@ -51,7 +51,7 @@ dX1s = np.sqrt(2*D1*dt)*Eps
 dX2s = np.sqrt(2*D2*dt)*Eps
 
 #nump particles starting at init
-Init3D = np.tile(np.array([[.2], [0], [0]]), nump)
+Init3D = np.tile(np.array([[.4], [0], [0]]), nump)
 
 """Initialize X[:, 0] here
 Initialize counts for t=0"""
