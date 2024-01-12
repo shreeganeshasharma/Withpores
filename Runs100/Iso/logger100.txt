@@ -33,4 +33,40 @@ MFPT(s)  0.20463645345813833 Particles hitting the target =  9615
 
 Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.07 --- 368.63657331466675 seconds ---
 MFPT(s)  0.25442403385337004 Particles hitting the target =  9807
+______________________________________________________________________________________________________________________
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.01 --- 145.29220843315125 seconds ---
+MFPT(s)  0.04760636316606311 Particles hitting the target =  9665
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.03 --- 300.4201729297638 seconds ---
+MFPT(s)  0.16071545302364512 Particles hitting the target =  9558
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.07 --- 352.2962305545807 seconds ---
+MFPT(s)  0.24621237197869728 Particles hitting the target =  9764
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.01 --- 177.0308051109314 seconds ---
+MFPT(s)  0.04470442098662208 Particles hitting the target =  9568
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.03 --- 430.5056231021881 seconds ---
+MFPT(s)  0.17765084544964999 Particles hitting the target =  9285
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.07 --- 501.638121843338 seconds ---
+MFPT(s)  0.24553759294667518 Particles hitting the target =  9414
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.01 --- 43.11138439178467 seconds ---
+MFPT(s)  0.011041023312140479 Particles hitting the target =  9909
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.03 --- 53.612029790878296 seconds ---
+MFPT(s)  0.03378324979951885 Particles hitting the target =  9976
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.07 --- 52.90505313873291 seconds ---
+MFPT(s)  0.03730060024009604 Particles hitting the target =  9996
 

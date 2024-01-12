@@ -92,3 +92,6 @@ Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.07
 MFPT(s)  0.020521320926469102 Particles hitting the target =  9887
 
 
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.005 --- 35.12396168708801 seconds ---
+MFPT(s)  0.0036333232292613924 Particles hitting the target =  9897
+

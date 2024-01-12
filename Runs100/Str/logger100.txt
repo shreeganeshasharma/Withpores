@@ -26,4 +26,40 @@ MFPT(s)  0.32830452596474513 Particles hitting the target =  8396
 
 Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.07 --- 627.098265171051 seconds ---
 MFPT(s)  0.4263805698874297 Particles hitting the target =  8528
+-------------------------------------------------------------------------------------------------
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.01 --- 116.38595533370972 seconds ---
+MFPT(s)  0.04760636316606311 Particles hitting the target =  9665
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.03 --- 223.8026909828186 seconds ---
+MFPT(s)  0.16071545302364512 Particles hitting the target =  9558
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.07 --- 279.90332221984863 seconds ---
+MFPT(s)  0.24621237197869728 Particles hitting the target =  9764
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.01 --- 104.82947731018066 seconds ---
+MFPT(s)  0.05348354056257643 Particles hitting the target =  9812
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.03 --- 164.3227722644806 seconds ---
+MFPT(s)  0.10061672281776417 Particles hitting the target =  9795
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.07 --- 164.62104892730713 seconds ---
+MFPT(s)  0.10950154738878144 Particles hitting the target =  9823
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.01 --- 61.519723415374756 seconds ---
+MFPT(s)  0.017537457886676877 Particles hitting the target =  9795
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.03 --- 102.92278814315796 seconds ---
+MFPT(s)  0.08042098291030439 Particles hitting the target =  9889
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.07 --- 113.50421786308289 seconds ---
+MFPT(s)  0.11168227632501754 Particles hitting the target =  9981
 
