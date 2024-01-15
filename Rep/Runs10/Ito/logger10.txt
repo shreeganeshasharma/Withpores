@@ -1,0 +1,60 @@
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.01 --- 2406.5486133098602 seconds ---
+MFPT(s)  0.9642331691297208 Particles hitting the target =  609
+Mean First Passage Time =  9642.331691297208
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.03 --- 1970.844472169876 seconds ---
+MFPT(s)  0.9196214026602176 Particles hitting the target =  2481
+Mean First Passage Time =  9196.214026602176
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.005 --- 2303.0990414619446 seconds ---
+MFPT(s)  0.9923540909090909 Particles hitting the target =  220
+Mean First Passage Time =  9923.540909090909
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.07 --- 1763.5979628562927 seconds ---
+MFPT(s)  0.8275466954022989 Particles hitting the target =  5568
+Mean First Passage Time =  8275.466954022988
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.01 --- 2368.204402923584 seconds ---
+MFPT(s)  0.9563940224719102 Particles hitting the target =  2225
+Mean First Passage Time =  9563.940224719101
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.03 --- 1293.851366519928 seconds ---
+MFPT(s)  0.6873565705975674 Particles hitting the target =  7564
+Mean First Passage Time =  6873.565705975674
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.005 --- 2618.7051417827606 seconds ---
+MFPT(s)  0.9698687034277198 Particles hitting the target =  671
+Mean First Passage Time =  9698.687034277198
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.07 --- 530.4555118083954 seconds ---
+MFPT(s)  0.30571011816838994 Particles hitting the target =  9478
+Mean First Passage Time =  3057.1011816838995
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.01 --- 2225.046414375305 seconds ---
+MFPT(s)  0.9663528455284554 Particles hitting the target =  615
+Mean First Passage Time =  9663.528455284553
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.03 --- 2035.6615154743195 seconds ---
+MFPT(s)  0.9141941359223302 Particles hitting the target =  2575
+Mean First Passage Time =  9141.941359223301
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.005 --- 2512.677654981613 seconds ---
+MFPT(s)  0.9919704225352113 Particles hitting the target =  213
+Mean First Passage Time =  9919.704225352112
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.07 --- 1532.999992609024 seconds ---
+MFPT(s)  0.8145075318246111 Particles hitting the target =  5656
+Mean First Passage Time =  8145.07531824611
+

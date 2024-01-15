@@ -1,0 +1,45 @@
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.01 --- 2042.688958644867 seconds ---
+MFPT(s)  0.9300898062730627 Particles hitting the target =  4336
+Mean First Passage Time =  9300.898062730626
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.03 --- 909.1084764003754 seconds ---
+MFPT(s)  0.6452428716216216 Particles hitting the target =  8880
+Mean First Passage Time =  6452.428716216216
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.07 --- 457.54466247558594 seconds ---
+MFPT(s)  0.3861317897497982 Particles hitting the target =  9912
+Mean First Passage Time =  3861.3178974979824
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.01 --- 1043.7713174819946 seconds ---
+MFPT(s)  0.5848435131625547 Particles hitting the target =  8471
+Mean First Passage Time =  5848.435131625546
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.03 --- 241.5131676197052 seconds ---
+MFPT(s)  0.13991851092195673 Particles hitting the target =  9751
+Mean First Passage Time =  1399.1851092195673
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  100 r =  0.07 --- 131.24681067466736 seconds ---
+MFPT(s)  0.05232798202614379 Particles hitting the target =  9792
+Mean First Passage Time =  523.2798202614379
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.01 --- 1759.0684385299683 seconds ---
+MFPT(s)  0.9216968901174846 Particles hitting the target =  4341
+Mean First Passage Time =  9216.968901174845
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.03 --- 896.920303106308 seconds ---
+MFPT(s)  0.6255824210057855 Particles hitting the target =  8988
+Mean First Passage Time =  6255.8242100578545
+
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  100 r =  0.07 --- 468.4780511856079 seconds ---
+MFPT(s)  0.3831387165450122 Particles hitting the target =  9864
+Mean First Passage Time =  3831.3871654501218
+

@@ -1,0 +1,52 @@
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.01 --- 1818.910211801529 seconds ---
+MFPT(s)  0.9642331691297208 Particles hitting the target =  609
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.03 --- 1701.885815858841 seconds ---
+MFPT(s)  0.9196214026602176 Particles hitting the target =  2481
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.07 --- 1362.8384938240051 seconds ---
+MFPT(s)  0.8275466954022989 Particles hitting the target =  5568
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.01 --- 1825.6108803749084 seconds ---
+MFPT(s)  0.968852765093861 Particles hitting the target =  1971
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.03 --- 1291.2011585235596 seconds ---
+MFPT(s)  0.7725295835254342 Particles hitting the target =  6507
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.07 --- 701.0281345844269 seconds ---
+MFPT(s)  0.46037638384505336 Particles hitting the target =  9087
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.01 --- 1862.3785848617554 seconds ---
+MFPT(s)  0.9708411764705883 Particles hitting the target =  680
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.03 --- 1598.6304314136505 seconds ---
+MFPT(s)  0.9000902516725071 Particles hitting the target =  3139
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.07 --- 1102.6270575523376 seconds ---
+MFPT(s)  0.7667600240096039 Particles hitting the target =  6664
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.005 --- 1751.1107647418976 seconds ---
+MFPT(s)  0.9923540909090909 Particles hitting the target =  220
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.005 --- 1967.9565570354462 seconds ---
+MFPT(s)  0.9825444620253165 Particles hitting the target =  632
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.005 --- 1805.4795463085175 seconds ---
+MFPT(s)  0.9745412017167383 Particles hitting the target =  233
+
+
+Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.01 --- 1961.086207151413 seconds ---
+MFPT(s)  0.968852765093861 Particles hitting the target =  1971
+
