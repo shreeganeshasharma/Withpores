@@ -45,8 +45,3 @@ MFPT(s)  0.9825444620253165 Particles hitting the target =  632
 
 Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  10 r =  0.005 --- 1805.4795463085175 seconds ---
 MFPT(s)  0.9745412017167383 Particles hitting the target =  233
-
-
-Str nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  10 r =  0.01 --- 1961.086207151413 seconds ---
-MFPT(s)  0.968852765093861 Particles hitting the target =  1971
-
