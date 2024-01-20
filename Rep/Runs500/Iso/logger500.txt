@@ -1,0 +1,36 @@
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  500 r =  0.01 --- 1092.946563243866 seconds ---
+MFPT(s)  0.6866787372013653 Particles hitting the target =  8790
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  500 r =  0.03 --- 467.3586776256561 seconds ---
+MFPT(s)  0.37185794882127743 Particles hitting the target =  9926
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  500 r =  0.005 --- 1685.6523094177246 seconds ---
+MFPT(s)  0.8828750527055517 Particles hitting the target =  5692
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  500 r =  0.01 --- 1037.725131034851 seconds ---
+MFPT(s)  0.5469874434900543 Particles hitting the target =  8848
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  500 r =  0.03 --- 394.2449514865875 seconds ---
+MFPT(s)  0.21878100454733362 Particles hitting the target =  9676
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  500 r =  0.005 --- 1789.801117181778 seconds ---
+MFPT(s)  0.8057281565009398 Particles hitting the target =  5853
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  500 r =  0.01 --- 868.9962310791016 seconds ---
+MFPT(s)  0.5994461788617886 Particles hitting the target =  9225
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  500 r =  0.03 --- 324.2626221179962 seconds ---
+MFPT(s)  0.23311622526636225 Particles hitting the target =  9855
+
+
+Iso nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  500 r =  0.005 --- 1601.2168748378754 seconds ---
+MFPT(s)  0.8632009020829917 Particles hitting the target =  6097
+

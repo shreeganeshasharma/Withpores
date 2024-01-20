@@ -31,7 +31,7 @@ D1 = 10
 D2 = 1
 
 #Radius of the target at the center
-R = R1 / 5
+R = 0.3
 """Get r0 value from paper"""
 #Hitting times if the target is hit
 hittingTime = np.zeros(nump)
@@ -51,13 +51,13 @@ dX1s = np.sqrt(2*D1*dt)*Eps
 dX2s = np.sqrt(2*D2*dt)*Eps
 
 #nump particles starting at init
-Init3D = np.tile(np.array([[.2], [0], [0]]), nump)
+Init3D = np.tile(np.array([[.4], [0], [0]]), nump)
 
 """Initialize X[:, 0] here
 Initialize counts for t=0"""
 
 #Number of pores
-N = 10
+N = 50
 
 #Max radius of pores at 500 pores = 0.0447
 #Radius of pores
