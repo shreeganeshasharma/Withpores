@@ -57,7 +57,7 @@ Init3D = np.tile(np.array([[.4], [0], [0]]), nump)
 Initialize counts for t=0"""
 
 #Number of pores
-N = 30
+N = 150
 
 #Max radius of pores at 500 pores = 0.0447
 #Radius of pores

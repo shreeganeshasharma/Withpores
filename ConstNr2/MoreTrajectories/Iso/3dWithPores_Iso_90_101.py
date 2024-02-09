@@ -57,7 +57,7 @@ Init3D = np.tile(np.array([[.4], [0], [0]]), nump)
 Initialize counts for t=0"""
 
 #Number of pores
-N = 90
+N = 180
 
 #Can neglect the curvature in higher dimensions as long as R1 >> R  - > Arc length = 2r*arcsin(d/2r) ~ d
 #Maximum number of pores possible at radius R - floor(4*pi*R1^2 / pi*R^2)
