@@ -1,0 +1,52 @@
+Expected residence times in the first medium
+1:1 -> 0.02305555555555556
+1:10 -> 0.02305555555555556
+10:1 -> 0.002305555555555556
+
+10k trajectories with N = 0
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  0 r =  0.1 --- 50.54180645942688 seconds ---
+MFPT(s)  0.02697789822342668 Particles hitting the target =  9963
+Mean First Passage Time =  269.7789822342668
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  0 r =  0.1 --- 47.80076336860657 seconds ---
+MFPT(s)  0.028045763561616366 Particles hitting the target =  9973
+Mean First Passage Time =  280.45763561616366
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  0 r =  0.1 --- 38.366036891937256 seconds ---
+MFPT(s)  0.004466393691234456 Particles hitting the target =  9891
+Mean First Passage Time =  44.66393691234455
+
+100k trajectories with N = 0
+
+Ito nump =  100000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  0 r =  0.1 --- 2666.038765192032 seconds ---
+MFPT(s)  0.026460399891704355 Particles hitting the target =  99727
+
+Ito nump =  100000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  0 r =  0.1 --- 2559.981858730316 seconds ---
+MFPT(s)  0.027128958070396857 Particles hitting the target =  99834
+
+Ito nump =  100000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  0 r =  0.1 --- 2022.7873380184174 seconds ---
+MFPT(s)  0.004609530011610884 Particles hitting the target =  99045
+
+10k trajectories with R1 = R2 = 0.5, N = 0
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  0 r =  0.1 --- 241.70165252685547 seconds ---
+MFPT(s)  0.02592729458917836 Particles hitting the target =  9980
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  0 r =  0.1 --- 260.51335096359253 seconds ---
+MFPT(s)  0.02592729458917836 Particles hitting the target =  9980
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  0 r =  0.1 --- 128.94917011260986 seconds ---
+MFPT(s)  0.0034322200985816317 Particles hitting the target =  9941
+
+10k trajectories with R1 = R2 = 0.5, N = 0, r = 0
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  0 r =  0 --- 240.5686740875244 seconds ---
+MFPT(s)  0.025984790227295485 Particles hitting the target =  9987
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  10 N =  0 r =  0 --- 250.19980192184448 seconds ---
+MFPT(s)  0.025984790227295485 Particles hitting the target =  9987
+
+Ito nump =  10000 nums =  20000 dt =  0.0001 D1 =  10  D2 =  1 N =  0 r =  0 --- 124.60977602005005 seconds ---
+MFPT(s)  0.0034267216246104356 Particles hitting the target =  9947
+
