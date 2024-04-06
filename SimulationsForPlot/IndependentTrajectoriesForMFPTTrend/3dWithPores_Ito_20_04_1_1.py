@@ -11,6 +11,7 @@ import numpy as np
 from scipy.stats import bernoulli
 import matplotlib.pyplot as plt
 np.random.seed(1746)
+#np.random.seed(1956)
 
 #Brownian motion parameters
 #Dimensions - 2, 3 or higher
@@ -51,7 +52,7 @@ N = 20
 
 #Max radius of pores at 500 pores = 0.0447
 #Radius of pores
-r = 0.707
+r = 0.0707
 
 #A list of centers of pores
 poreCenters = []
@@ -136,7 +137,9 @@ for i in range(nump):
         #Reflect - Image in D2
         X[:, j] = X[:, j - 1] + dX2 - 2*(1-lamb)*np.dot(dX2, r0/np.linalg.norm(r0))*r0/np.linalg.norm(r0)
         #print(j, "Reflection in D2", X[:, j], np.linalg.norm(X[:, j]), np.linalg.norm(X[:, j] - X[:, j-1]))
-  #print(i)
+        
+  if i % 10000 == 0:
+  	print(i)
 
 #Time taken to simulate motion of nump particles each taking nums steps
 print("Ito nump = ", nump, "nums = ", nums, "dt = ", dt, "D1 = ", D1, " D2 = ", D2, "N = ", N, "r = ", r, "--- %s seconds ---" % (time.time() - start_time))

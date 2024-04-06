@@ -11,6 +11,7 @@ import numpy as np
 from scipy.stats import bernoulli
 import matplotlib.pyplot as plt
 np.random.seed(1746)
+np.random.seed(1956)
 
 #Brownian motion parameters
 #Dimensions - 2, 3 or higher
