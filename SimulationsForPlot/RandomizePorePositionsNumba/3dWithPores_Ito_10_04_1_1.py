@@ -10,6 +10,11 @@ import math
 import numpy as np
 from scipy.stats import bernoulli
 import matplotlib.pyplot as plt
+
+from numba import jit
+import warnings
+warnings.filterwarnings('ignore')
+
 np.random.seed(1956)
 
 #Brownian motion parameters
@@ -53,6 +58,7 @@ N = 10
 #Radius of pores
 r = 0.1
 
+@jit(nopython=True)
 def pores():
   #A list of centers of pores
   Centers = []
@@ -67,25 +73,21 @@ def pores():
     center = np.random.randn(dim)
     center = R1 * center / np.linalg.norm(center)
     #Ensure that there is no overlap between pores
-    if np.all(np.linalg.norm(center - Centers, axis=1) > 2*r) == True:
+    overlap = len(Centers)
+    for i in range(len(Centers)):
+      if np.linalg.norm(center - Centers[i]) > 2*r:
+        overlap = overlap - 1
+    if overlap == 0:
       Centers.append(center)
 
   #Return the list of pore centers
   return Centers
      
-#Trajectories
-start_time = time.time()
-for i in range(nump):
-  #Initialize - The particle starts at a random position outside the target
-  X[:, 0] = Init3D[:, i]
-
-  #Randomize pore position for each trajectory
-  poreCenters = pores()
-
-  #Find particle trajectories
+@jit(nopython = True)
+def ItoTrajectory(i, X, hittingTime, poreCenters):
   for j in range(1, nums):
     #Random increment in the position
-    dRand = np.random.multivariate_normal(mean, covar)
+    dRand = np.random.randn(dim)
     #Increment if particle is in medium1
     dX1 = np.sqrt(2*D1*dt)*dRand
     #Increment if particle is in medium2
@@ -122,7 +124,12 @@ for i in range(nump):
       #Find the point of reflection/diffusion
       lamb = ( -np.dot(X[:, j - 1], dX1) + np.sqrt(np.dot(X[:, j - 1], dX1)**2 - (np.linalg.norm(dX1)**2)*(np.linalg.norm(X[:, j - 1])**2 - R1**2)) )/(np.linalg.norm(dX1)**2)
       r0 = X[:, j - 1] + lamb*dX1
-      if any(np.linalg.norm(r0 - poreCenters, axis=1) < r):
+      nearaPore = 0
+      for i in range(len(poreCenters)):
+        if np.linalg.norm(r0 - poreCenters[i]) < r:
+          nearaPore = 1
+          break
+      if nearaPore == 1:
         #If particle's projection on surface of the inner ball is near any pore, diffuse to D2.
         X[:, j] = X[:, j - 1] + dX1
       else:
@@ -136,14 +143,27 @@ for i in range(nump):
       lamb = ( -np.dot(X[:, j - 1], dX2) - np.sqrt(np.dot(X[:, j - 1], dX2)**2 - (np.linalg.norm(dX2)**2)*(np.linalg.norm(X[:, j - 1])**2 - R1**2)) )/(np.linalg.norm(dX2)**2)
       r0 = X[:, j - 1] + lamb*dX2
       #If particle projected on surface of ball 1 is near a pore, diffuse to D1. Else reflect it
-      if any(np.linalg.norm(r0 - poreCenters, axis=1) < r):
+      nearaPore = 0
+      for i in range(len(poreCenters)):
+        if np.linalg.norm(r0 - poreCenters[i]) < r:
+          nearaPore = 1
+          break
+      if nearaPore == 1:
         #Diffuse to D1 via a pore
         X[:, j] = X[:, j - 1] + dX2
       else:
         #Reflect - Image in D2
         X[:, j] = X[:, j - 1] + dX2 - 2*(1-lamb)*np.dot(dX2, r0/np.linalg.norm(r0))*r0/np.linalg.norm(r0)
         #print(j, "Reflection in D2", X[:, j], np.linalg.norm(X[:, j]), np.linalg.norm(X[:, j] - X[:, j-1]))
-  #print(i)
+        
+start_time = time.time()
+for i in range(nump):
+  #Initialize - The particle starts at a random position outside the target
+  X[:, 0] = Init3D[:, i]
+
+  poreCenters = pores()
+
+  ItoTrajectory(i, X, hittingTime, poreCenters)
 
 #Time taken to simulate motion of nump particles each taking nums steps
 print("Ito nump = ", nump, "nums = ", nums, "dt = ", dt, "D1 = ", D1, " D2 = ", D2, "N = ", N, "r = ", r, "--- %s seconds ---" % (time.time() - start_time))

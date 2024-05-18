@@ -10,6 +10,7 @@ import math
 import numpy as np
 from scipy.stats import bernoulli
 import matplotlib.pyplot as plt
+np.random.seed(1746)
 np.random.seed(1956)
 
 #Brownian motion parameters
@@ -20,7 +21,7 @@ dt = 0.0001
 #Number of steps
 nums = 20000
 #Number of particles
-nump = 1000
+nump = 1000000
 #Radius of the inner ball, reflecting boundary with pores
 R1 = 0.5
 #Radius of the outer ball, completely reflecting boundary
@@ -47,7 +48,7 @@ X = np.zeros([dim, nums])
 Init3D = np.tile(np.array([[.4], [0], [0]]), nump)
 
 #Number of pores
-N = 10
+N = 30
 
 #Max radius of pores at 500 pores = 0.0447
 #Radius of pores
@@ -69,16 +70,16 @@ def pores():
     #Ensure that there is no overlap between pores
     if np.all(np.linalg.norm(center - Centers, axis=1) > 2*r) == True:
       Centers.append(center)
-
+      
   #Return the list of pore centers
   return Centers
-     
+   
 #Trajectories
 start_time = time.time()
 for i in range(nump):
   #Initialize - The particle starts at a random position outside the target
   X[:, 0] = Init3D[:, i]
-
+  
   #Randomize pore position for each trajectory
   poreCenters = pores()
 

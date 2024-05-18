@@ -10,6 +10,7 @@ import math
 import numpy as np
 from scipy.stats import bernoulli
 import matplotlib.pyplot as plt
+np.random.seed(1746)
 np.random.seed(1956)
 
 #Brownian motion parameters
@@ -20,7 +21,7 @@ dt = 0.0001
 #Number of steps
 nums = 20000
 #Number of particles
-nump = 1000
+nump = 1000000
 #Radius of the inner ball, reflecting boundary with pores
 R1 = 0.5
 #Radius of the outer ball, completely reflecting boundary
@@ -43,44 +44,38 @@ covar = np.identity(dim)
 #Trajectory of a particle
 X = np.zeros([dim, nums])
 
-#nump particles starting at init
-Init3D = np.tile(np.array([[.4], [0], [0]]), nump)
+#nump particles starting at init with angles uniformly randomly distributed over the sphere at norm = 0.4
+Init3D = np.random.multivariate_normal(mean, covar, nump).T
+Init3D = 0.4 * Init3D / np.linalg.norm(Init3D, axis = 0)
 
 #Number of pores
-N = 10
+N = 40
 
 #Max radius of pores at 500 pores = 0.0447
 #Radius of pores
-r = 0.1
+r = 0.05
 
-def pores():
-  #A list of centers of pores
-  Centers = []
-  #First pore, selected randomly
+#A list of centers of pores
+poreCenters = []
+#First pore, selected randomly
+center = np.random.randn(dim)
+#Project the center of the pore onto the surface of the inner ball
+center = R1 * center / np.linalg.norm(center)
+poreCenters.append(center)
+
+#Add N-1 more pores uniformly randomly on the surface of the inner ball
+while len(poreCenters) < N:
   center = np.random.randn(dim)
-  #Project the center of the pore onto the surface of the inner ball
   center = R1 * center / np.linalg.norm(center)
-  Centers.append(center)
-
-  #Add N-1 more pores uniformly randomly on the surface of the inner ball
-  while len(Centers) < N:
-    center = np.random.randn(dim)
-    center = R1 * center / np.linalg.norm(center)
-    #Ensure that there is no overlap between pores
-    if np.all(np.linalg.norm(center - Centers, axis=1) > 2*r) == True:
-      Centers.append(center)
-
-  #Return the list of pore centers
-  return Centers
-     
+  #Ensure that there is no overlap between pores
+  if all(np.linalg.norm(center - poreCenters, axis=1) > 2*r) == True:
+    poreCenters.append(center)
+   
 #Trajectories
 start_time = time.time()
 for i in range(nump):
   #Initialize - The particle starts at a random position outside the target
   X[:, 0] = Init3D[:, i]
-
-  #Randomize pore position for each trajectory
-  poreCenters = pores()
 
   #Find particle trajectories
   for j in range(1, nums):

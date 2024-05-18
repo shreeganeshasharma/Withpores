@@ -10,6 +10,7 @@ import math
 import numpy as np
 from scipy.stats import bernoulli
 import matplotlib.pyplot as plt
+np.random.seed(1746)
 np.random.seed(1956)
 
 #Brownian motion parameters
@@ -20,7 +21,7 @@ dt = 0.0001
 #Number of steps
 nums = 20000
 #Number of particles
-nump = 1000
+nump = 1000000
 #Radius of the inner ball, reflecting boundary with pores
 R1 = 0.5
 #Radius of the outer ball, completely reflecting boundary
@@ -47,11 +48,11 @@ X = np.zeros([dim, nums])
 Init3D = np.tile(np.array([[.4], [0], [0]]), nump)
 
 #Number of pores
-N = 10
+N = 20
 
 #Max radius of pores at 500 pores = 0.0447
 #Radius of pores
-r = 0.1
+r = 0.1225
 
 def pores():
   #A list of centers of pores
@@ -69,16 +70,16 @@ def pores():
     #Ensure that there is no overlap between pores
     if np.all(np.linalg.norm(center - Centers, axis=1) > 2*r) == True:
       Centers.append(center)
-
+      
   #Return the list of pore centers
   return Centers
-     
+   
 #Trajectories
 start_time = time.time()
 for i in range(nump):
   #Initialize - The particle starts at a random position outside the target
   X[:, 0] = Init3D[:, i]
-
+  
   #Randomize pore position for each trajectory
   poreCenters = pores()
 
@@ -143,7 +144,9 @@ for i in range(nump):
         #Reflect - Image in D2
         X[:, j] = X[:, j - 1] + dX2 - 2*(1-lamb)*np.dot(dX2, r0/np.linalg.norm(r0))*r0/np.linalg.norm(r0)
         #print(j, "Reflection in D2", X[:, j], np.linalg.norm(X[:, j]), np.linalg.norm(X[:, j] - X[:, j-1]))
-  #print(i)
+        
+  if i % 10000 == 0:
+  	print(i)
 
 #Time taken to simulate motion of nump particles each taking nums steps
 print("Ito nump = ", nump, "nums = ", nums, "dt = ", dt, "D1 = ", D1, " D2 = ", D2, "N = ", N, "r = ", r, "--- %s seconds ---" % (time.time() - start_time))

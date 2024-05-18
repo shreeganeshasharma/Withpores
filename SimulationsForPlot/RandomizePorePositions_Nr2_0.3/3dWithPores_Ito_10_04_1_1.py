@@ -20,7 +20,7 @@ dt = 0.0001
 #Number of steps
 nums = 20000
 #Number of particles
-nump = 1000
+nump = 1000000
 #Radius of the inner ball, reflecting boundary with pores
 R1 = 0.5
 #Radius of the outer ball, completely reflecting boundary
@@ -51,7 +51,7 @@ N = 10
 
 #Max radius of pores at 500 pores = 0.0447
 #Radius of pores
-r = 0.1
+r = 0.1732
 
 def pores():
   #A list of centers of pores
