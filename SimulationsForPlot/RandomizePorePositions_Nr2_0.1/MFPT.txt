@@ -1,3 +1,18 @@
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  1 r =  0.3162 --- 237966.79959487915 seconds ---
+MFPT(s)  0.05053203765883343 Particles hitting the target =  958394
+
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  2 r =  0.2236 --- 263329.07318902016 seconds ---
+MFPT(s)  0.0608775091775529 Particles hitting the target =  953958
+
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  4 r =  0.1581 --- 299602.0627324581 seconds ---
+MFPT(s)  0.07499857981839439 Particles hitting the target =  950301
+
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  6 r =  0.1291 --- 314394.6543354988 seconds ---
+MFPT(s)  0.08554579052108324 Particles hitting the target =  948716
+
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  8 r =  0.1118 --- 331923.37982177734 seconds ---
+MFPT(s)  0.0934611563885479 Particles hitting the target =  948228
+
 Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  10 r =  0.1 --- 355946.06792116165 seconds ---
 MFPT(s)  0.09939223650586317 Particles hitting the target =  947782
 
@@ -28,4 +43,17 @@ MFPT(s)  0.16695375320809383 Particles hitting the target =  955396
 Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  100 r =  0.0316 --- 427497.7541320324 seconds ---
 MFPT(s)  0.16959077447889315 Particles hitting the target =  955946
 
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  200 r =  0.0224 --- 431870.3826684952 seconds ---
+MFPT(s)  0.18548940005293774 Particles hitting the target =  959618
 
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  400 r =  0.0158 --- 460293.42539048195 seconds ---
+MFPT(s)  0.1969389004170925 Particles hitting the target =  962856
+
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  600 r =  0.0129 --- 542608.5626153946 seconds ---
+MFPT(s)  0.20203898289436834 Particles hitting the target =  964010
+
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  800 r =  0.0112 --- 634224.3936846256 seconds ---
+MFPT(s)  0.20570887753949346 Particles hitting the target =  964907
+
+Ito nump =  1000000 nums =  20000 dt =  0.0001 D1 =  1  D2 =  1 N =  1000 r =  0.01 --- 724065.6847434044 seconds ---
+MFPT(s)  0.20764990568158392 Particles hitting the target =  965347
