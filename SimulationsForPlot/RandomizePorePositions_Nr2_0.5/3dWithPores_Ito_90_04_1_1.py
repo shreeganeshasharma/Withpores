@@ -52,7 +52,7 @@ N = 90
 
 #Max radius of pores at 500 pores = 0.0447
 #Radius of pores
-r = 0.0333
+r = 0.0745
 
 def pores():
   #A list of centers of pores
